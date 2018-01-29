@@ -1,3 +1,5 @@
 admin
 joaopauloln7@gmail.com
 a1s2d3f4
+
+pip install django-ajax-selects
