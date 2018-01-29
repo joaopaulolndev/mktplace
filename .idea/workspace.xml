@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="589a8e4b-7a5d-4e98-950c-c6de75e19863" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/css/star-rating.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/vendor/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/boleto.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/card.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/logo-pt__large.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/master.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/medals.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/mercado-pago.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/shield.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/truck.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/visa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/star-rating.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/star-rating_locale_pt-br.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portal/lookups.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portal/migrations/0002_auto_20180129_1051.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portal/migrations/0003_auto_20180129_1136.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portal/templates/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portal/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Acesso" afterPath="$PROJECT_DIR$/Acesso" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/mktplace/settings.py" afterPath="$PROJECT_DIR$/mktplace/settings.py" />
-      <change beforePath="$PROJECT_DIR$/mktplace/urls.py" afterPath="$PROJECT_DIR$/mktplace/urls.py" />
-      <change beforePath="$PROJECT_DIR$/portal/admin.py" afterPath="$PROJECT_DIR$/portal/admin.py" />
-      <change beforePath="$PROJECT_DIR$/portal/models.py" afterPath="$PROJECT_DIR$/portal/models.py" />
-      <change beforePath="$PROJECT_DIR$/portal/views.py" afterPath="$PROJECT_DIR$/portal/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -125,7 +92,11 @@
     <findStrings>
       <find>aj</find>
       <find>static</find>
+      <find>=&quot;assets/</find>
     </findStrings>
+    <replaceStrings>
+      <replace>=&quot;{% static '</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -143,6 +114,7 @@
         <option value="$PROJECT_DIR$/portal/urls.py" />
         <option value="$PROJECT_DIR$/mktplace/settings.py" />
         <option value="$PROJECT_DIR$/portal/templates/base.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -185,16 +157,6 @@
             <path>
               <item name="mktplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="mktplace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mktplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mktplace" type="462c0819:PsiDirectoryNode" />
-              <item name="mktplace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mktplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mktplace" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,13 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517185229385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Template Base">
+      <created>1517244914609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517244914609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21149674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21149674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -306,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Start Project Market Place" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Start Project Market Place" />
+    <MESSAGE value="Add Template Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Template Base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,8 +432,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
         </state>
       </provider>
