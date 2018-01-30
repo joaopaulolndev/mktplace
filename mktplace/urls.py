@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^ajax_select/', include(ajax_select_urls)),
     url(r'^', include('portal.urls')),
+    url(r'^', include('login.urls')),
 ]
