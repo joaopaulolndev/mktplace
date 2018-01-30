@@ -5,4 +5,10 @@
 {% block content %}
     <h3>Cadastre-se</h3>
     <hr>
+    <form method="post" action="{% url 'login_register' %}" class="form-horizontal">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <input type="submit" value="Realizar cadastro">
+    </form>
 {% endblock %}

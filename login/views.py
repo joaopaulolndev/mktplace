@@ -1,9 +1,11 @@
 from django.shortcuts import render, render_to_response
+from login.forms import RegistrationForm
 
 
 def register(request):
-    #return render(request, 'registration/register.html', {})
-    return render_to_response('registration/register.html', {})
+    form = RegistrationForm()
+    context = {'form': form}
+    return render(request, 'registration/register.html', context)
 
 
 def register_success(request):
