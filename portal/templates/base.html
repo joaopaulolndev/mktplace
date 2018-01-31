@@ -43,13 +43,20 @@
 
             <ul class="nav navbar-nav navbar-right navbar-right-market-place">
 
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>CANDIDO_SOUZZA</span> <i class="fa fa-user-o"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Minha conta</a></li>
-                        <li><a href="#">Sair</a></li>
-                    </ul>
-                </li>
+                {% if request.user.is_authenticated %}
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false"><span>{{ request.user }}</span> <i class="fa fa-user-o"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Meus dados</a></li>
+                            <li><a href="#">Minhas compras</a></li>
+                            <li><a href="#">Minhas vendas</a></li>
+                            <li><a href="{% url 'logout'%}">Sair</a></li>
+                        </ul>
+                    </li>
+                {% else %}
+                    <li><a href="{% url 'login' %}">Fazer Login</a></li>
+                {% endif %}
                 <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
                 <li><a href="#"><i class="fa fa-heart-o"></i> </a></li>
                 <li><a href="#">Contato</a></li>
