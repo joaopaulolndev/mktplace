@@ -129,3 +129,28 @@ STATICFILES_DIRS = [
 
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login'
+
+ALGOLIA = {
+    'APPLICATION_ID': '',
+    'API_KEY': ''
+}
+
+#IUGU_ACCOUNT_ID = ""
+#IUGU_API_TOKEN = os.environ['IUGU_API_TOKEN']
+#IUGU_COMMISSION_MARKET_PLACE = 0.9
+
+#AWS_ACCESS_KEY_ID = ''
+#AWS_SECRET_ACCESS_KEY = ''
+#AWS_STORAGE_BUCKET_NAME = 'mktplacedjango'
+S3DIRECT_REGION = 'sa-east-1'
+
+S3DIRECT_DESTINATIONS = {
+    'product_images': {
+        'key': 'uploads/images',
+        'auth': lambda u: u.is_authenticated(), # Default allow anybody to upload
+        'allowed': ['image/jpeg', 'image/png'],  # Default allow all mime types
+    }
+}
+
+# The region of your bucket, more info:
+# http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
