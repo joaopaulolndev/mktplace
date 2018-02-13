@@ -7,6 +7,6 @@ urlpatterns = [
     url(r'^register/success$', views.register_success, name='login_register_success'),
     url(r'^register$', views.register, name='login_register'),
     url(r'^login/$', auth_views.login, name='login'),
-    url(r'^logout/$', auth_views.logout, {'next_page': '/'}, name='logout'),
+    url(r'^logout/$', auth_views.logout, {'next_page':'/'}, name='logout'),
 
 ]
